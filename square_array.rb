@@ -3,5 +3,5 @@ def square_array(array)
   array.each do |index|
     new_array.push(index ** 2)
   end
-  print new_array
+  return new_array
 end
